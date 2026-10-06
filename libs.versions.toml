@@ -1,0 +1,8 @@
+# Central version catalog: one place to manage every dependency version.
+[versions]
+gson = "2.11.0"
+junit = "5.11.0"
+
+[libraries]
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+junit-bom = { module = "org.junit:junit-bom", version.ref = "junit" }
